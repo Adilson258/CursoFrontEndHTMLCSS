@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: #c5ebd6;    
+    margin: 0px;
+    }
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #38CA79, #1A5C38);
+    margin: 0px 0px 0px 0px;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+
+main {
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;  
+
+}
+
+.pricipal {
+    box-shadow: 2px 2px 2px black;
+}
+
+h1 {
+    padding-top: 15px;
+}
+
+h2 {
+    color: #1A5C38;
+    font-family: 'idroid';
+    margin: 0px ;
+    margin-bottom: 0px;
+    padding: 10px ;
+}
+
+h3 {
+    background-image: linear-gradient(to right, #8ddbb0, white);
+    color: #1A5C38;
+    font-family: 'idroid';
+    margin: 10px 10px 10px 10px;
+    margin-bottom: 0px;
+    padding: 10px ;
+    
+}
+
+h4 {
+   color: rgba(255, 255, 255, 0.656);
+   text-align: center;
+}
+
+p {
+    margin: 6px 10px 6px 10px;
+}
+
+nav > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 5px;
+
+}
+
+.fotoflex {
+    text-align: center;
+}
+
+.Fotoflex {
+    text-align: center;
+}
+
+.Fotoflex {
+    text-align: center;
+}
+
+strong {
+    color: #21643f;
+}
+
+div > iframe {
+    margin: 15px 0px 12px 0px;
+}
+.iframe {
+    background-color: #1A5C38;
+    text-align: center;
+}
+
+.QAM > p {
+    background-color: #2fa062;
+    color: white;
+    margin-bottom: 0px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.QAM2 {
+    background-color: #a9f4cb;
+    margin: 0px 10px 0px 10px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.QAM2 > P {
+    margin-top: 0px;
+}
+
+ul {
+    list-style: none;
+    columns: 2;
+}
+
+ul, li::before {
+    content: '✓';
+}
+
+footer {
+    background-color: #1A5C38;
+}
+footer > p {
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(140, 188, 43, 0.729);
+}
+
+p{
+    color: darkmagenta;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: blueviolet;
+}
+h2{
+    color: crimson;
+}

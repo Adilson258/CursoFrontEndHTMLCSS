@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente criar esse site em varios dispositidos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    
+
+   <h1>Reproduzindo Audios</h1>
+   <p>Vamos aprender a reproduzir audio em HTML5</p>
+   <audio src="midias/R&B Sample Type Beat - “Text Me”.mp3" controls autoplay></audio>
+
+   <p>Formas Alternativas para caso o audio nao esteja a abrir no teu Browser</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midias/(FREE) R&B Sample Type Beat - Lost Myself .mp3" type="audio/mpeg">
+    </audio> <!--Outro tipos de estencoes de audio sao: .ogg e .wav(muito pesado, evitar o uso)-->
+
+
+</body>
+</html>
