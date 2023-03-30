@@ -1,0 +1,36 @@
+@charset "UTF8";
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url(fontes/Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'KaushenScript';
+    src: url(fontes/Kaushan_Script/KaushanScript-Regular.ttf);
+}
+
+
+body {
+
+}
+
+header {
+background-color: black;
+color: white;
+}
+
+header h1 {
+
+    font-family: 'workSans';
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+
+
+}
