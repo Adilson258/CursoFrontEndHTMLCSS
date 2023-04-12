@@ -10,10 +10,14 @@
     src: url(fontes/Kaushan_Script/KaushanScript-Regular.ttf);
 }
 
-
-body {
-    background-color: white;
+* {
     margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100%vh;
+    background-color: darkgrey;
 }
 
 header {    
@@ -25,22 +29,62 @@ header {
 }
 
 header h1 {
+    padding: 50px;
+    font-variant: small-caps;
     margin-top: 0px;
     font-family: 'workSans';
     
 }
 
-header a {
+header p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
     text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+header a:hover, footer a {
+    text-decoration: underline;
+} 
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color:rgba(0, 0, 0, 0.253);
+
+}
+
+section.normal {    
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
     color: white;
 }
 
-main {
 
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 
 }
 
-.q1 {
+/*.q1 {
     font-family: 'KaushenScript';
     font-size: 1.2em;
 }
+*/
+
